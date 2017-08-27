@@ -1,53 +1,156 @@
-/* TODO: insert styles here */
 body {
 
+}
+.main {
+    width: 100%;
+    margin: 0 auto;
 }
 
 .blue {
   font-family: 'Lato', sans-serif;
   border: 1px solid #4757ff;
-  width: 500px;
+  width: 400px;
   margin-top: 0;
   padding-top: 0;
   float:left;
 
 }
 h1{
-  text-align: center;
+  text-align: left;
   font-family: 'lato',black;
+  padding-bottom: 36px;
 }
 h2 {
   background-color: #4757ff;
   margin-top: 0;
+  margin-bottom: 5px;
   padding: 5px 0 5px 5px;
   color: #fff;
   font-family: 'Roboto Condensed', sans-serif;
 }
 .orange {
-  font-family: 'Lato', sans-serif;
-  border: 1px solid #fb4e32;
-  width: 500px;
-  margin-top: 0;
-  padding-top: 0;
-  float: right;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #fb4e32;
+    width: 400px;
+    margin-top: 19px;
+    padding-top: 0;
+    float: left;
 }
 .orange h2{
   background-color: #fb4e32;
+}
+.orange h3{
+  color: #fb4e32;
 }
 h3 {
   font-family: 'Roboto Mono', monospace;
   color: #4757ff;
   margin: 0;
-
-}
-.add {
-  border-top: 1px solid #4757ff;
+  padding-left: 10px;
+  padding-top: 10px;
 
 }
 p {
   font-family: 'Roboto',sans-serif;
+  padding-left: 0px;
+  padding-right: 10px;
+  margin-left: 9px;
+  margin-right: 5px;
 }
-.main{
-  width: 60%;
-  margin: 0 auto;
+.add {
+  padding-top: 10px;
+  border-top: 1px solid #4757ff;
+
 }
+
+
+@media only screen and (min-width: 768px) {
+
+  h1{
+    text-align: center;
+    }
+  .main {
+
+    width: 790px;
+    margin: 0 auto;
+  }
+  .blue {
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #4757ff;
+    width: 360px;
+    margin-top: 0;
+    padding-top: 0;
+    float: left;
+  }
+  .orange {
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #fb4e32;
+    width: 360px;
+    margin-top: 0px;
+    padding-top: 0;
+    margin-left: 30px;
+  }
+}
+/* On devices wider than 940px */
+@media only screen and (min-width: 1024px) {
+
+    h1{
+      text-align: center;
+    }
+    .main {
+
+        width: 920px;
+        margin: 0 auto;
+    }
+    .blue {
+      width: 434px;
+    }
+    .orange {
+        font-family: 'Lato', sans-serif;
+        border: 1px solid #fb4e32;
+        width: 434px;
+        margin-top: 0px;
+        padding-top: 0;
+        float: right;
+        margin-left:20px;
+    }
+  }
+  /* On devices no wider than 375px */
+  @media only screen and (max-width: 375px) {
+
+  .main {
+      width: 100%;
+      margin: 0 auto;
+  }
+
+  .blue {
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #4757ff;
+    width: 303px;
+    margin-top: 0;
+    padding-top: 0;
+    float:left;
+
+    }
+  h1{
+    text-align: left;
+    font-family: 'lato',black;
+    padding-bottom: 36px;
+    }
+  h2 {
+    background-color: #4757ff;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding: 5px 0 5px 5px;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    }
+  .orange {
+      font-family: 'Lato', sans-serif;
+      border: 1px solid #fb4e32;
+      width: 303px;
+      margin-top: 19px;
+      padding-top: 0;
+      float: left;
+    }
+  }
